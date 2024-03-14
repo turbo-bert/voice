@@ -25,6 +25,8 @@ fromtext() {
 
 . inc_countdown.sh
 
+fromtext tess en "on my mark"
+fromtext tess en "mark"
 fromtext tess en "started and ready"
 fromtext tess en "downloading"
 fromtext tess en "please wait"
@@ -39,3 +41,7 @@ fromtext tess en "system error"
 fromtext tess en "error"
 fromtext tess en "unable to process"
 fromtext tess en "check input"
+
+for X in $(seq 0 60); do
+    fromtext tess en "$X"
+done
