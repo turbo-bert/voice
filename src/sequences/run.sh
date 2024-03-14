@@ -22,9 +22,17 @@ fromtext() {
     fi
 }
 
+. inc_countdown.sh
+
 fromtext tess en "started and ready"
 fromtext tess en "downloading"
 fromtext tess en "please wait"
 fromtext tess en "one moment"
-
-. inc_countdown.sh
+fromtext tess en "all systems nominal"
+fromtext tess en "online"
+fromtext tess en "offline"
+fromtext tess en "communications"
+fromtext tess en "communications online"
+fromtext tess en "communications offline"
+fromtext tess en "system error"
+fromtext tess en "error"
