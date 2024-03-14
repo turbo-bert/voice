@@ -20,6 +20,7 @@ fromtext() {
         ffmpeg -i "$WHATF.aiff" -vn -acodec mp3 -ab 64k -ar 22050 -y "$WHATF.mp3"
         rm -f "$WHATF.aiff"
     fi
+    rm -f "$WHATF"
 }
 
 . inc_countdown.sh
@@ -36,3 +37,5 @@ fromtext tess en "communications online"
 fromtext tess en "communications offline"
 fromtext tess en "system error"
 fromtext tess en "error"
+fromtext tess en "unable to process"
+fromtext tess en "check input"
