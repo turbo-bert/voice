@@ -37,4 +37,7 @@ pfull() {
 
 
 
+p "sprachauswahl"
+p "deutsch"
+p "englisch"
 pfull "1234567890abcdef"

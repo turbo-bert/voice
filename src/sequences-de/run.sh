@@ -25,6 +25,9 @@ fromtext() {
 
 ## . inc_countdown.sh
 
+fromtext anna de "sprachauswahl"
+fromtext anna de "deutsch"
+fromtext anna de "englisch"
 fromtext anna de "einsatzbereit"
 fromtext anna de "bereit"
 fromtext anna de "kommunikationssysteme bereit"
