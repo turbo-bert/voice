@@ -34,6 +34,7 @@ fromtext anna de "abbruch"
 fromtext anna de "ueberpruefung erfolgreich abgeschlossen"
 fromtext anna de "ueberpruefung fehlgeschlagen"
 fromtext anna de "ausfuehrung"
+fromtext anna de "bitte warten"
 fromtext anna de "die uhrzeit ist"
 fromtext anna de "uhr"
 
