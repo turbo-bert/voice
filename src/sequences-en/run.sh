@@ -41,6 +41,7 @@ fromtext tess en "system error"
 fromtext tess en "error"
 fromtext tess en "unable to process"
 fromtext tess en "check input"
+fromtext tess en "completed"
 
 for X in $(seq 0 60); do
     fromtext tess en "$X"
