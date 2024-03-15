@@ -25,6 +25,7 @@ fromtext() {
 
 . inc_countdown.sh
 
+fromtext tess en "meeting"
 fromtext tess en "on my mark"
 fromtext tess en "mark"
 fromtext tess en "started and ready"
